@@ -1,0 +1,289 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Personal Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/c1338b3d04.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="../images/khen.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="opnmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>STUDENT</p>
+          <h1>Hi, I'm <span>khen</span> <br />from cainta rizal</h1>
+        </div>
+      </div>
+    </div>
+    <!----- about ------>
+    <div id="About">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="../images/user.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-tittle">About Me</h1>
+            <p>
+              Welcome to My IT Journey!<br />
+              fellow tech enthusiasts! Welcome to my corner of the web! My name
+              is Khen A. Sabeniano, and I'm thrilled to have you here. I'm a
+              20-year-old IT student with an insatiable curiosity for all things
+              tech. From the intricate workings of software to the endless
+              possibilities of hardware, I'm constantly diving into the
+              fascinating world of information technology. My journey in IT
+              began on October 25, 2003, the day I was born, coincidentally
+              merging my life with the digital era.
+            </p>
+
+            <div class="tab-tittles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-content active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>Android Studio</span><br />Basic knowledge about Android
+                  Studio
+                </li>
+                <li>
+                  <span>Web Development</span><br />Basic knowledge about Web
+                  Development
+                </li>
+                <li><span>App Development</span><br />Building Android apps</li>
+              </ul>
+            </div>
+
+            <div class="tab-content" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - 2027</span><br />NCII–Computer System Servicing
+                </li>
+                <li>
+                  <span>march,17,2023-March,18,2023</span><br />attended an
+                  Android Study Jam, and I received a certificate for my
+                  participation in that seminar.
+                </li>
+                <li><span>Other projects</span><br />Building Android apps</li>
+              </ul>
+            </div>
+
+            <div class="tab-content" id="education">
+              <ul>
+                <li><span>Elementary</span><br />Languyin Elementary School</li>
+                <li>
+                  <span>Highschool</span><br />Benjamin Sguerra Memorial
+                  National Highchool
+                </li>
+                <li>
+                  <span>Senior Higschool</span><br />Infanta National Highschool
+                </li>
+                <li>
+                  <span>College/Current</span><br />Laguna State Polytechnic
+                  University
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------Services ------------->
+    <div id="Services">
+      <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
+              iste rerum amet tempore natus quasi magni adipisci quis,
+              exercitationem maxime cumque quia ducimus corporis. Impedit autem
+              doloribus molestias nostrum voluptatum?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
+              iste rerum amet tempore natus quasi magni adipisci quis,
+              exercitationem maxime cumque quia ducimus corporis. Impedit autem
+              doloribus molestias nostrum voluptatum?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
+              iste rerum amet tempore natus quasi magni adipisci quis,
+              exercitationem maxime cumque quia ducimus corporis. Impedit autem
+              doloribus molestias nostrum voluptatum?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------- portfolio -------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="../images/car.png" />
+            <div class="layer">
+              <h3>Python Game</h3>
+              <p>
+                This game is developed using Python. The objective is to
+                overtake the other cars while avoiding collisions with them.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="../images/web.png" />
+            <div class="layer">
+              <h3>Lspu System</h3>
+              <p>
+                This website is designed to serve as a duplicate of the official
+                LSPU (Laguna State Polytechnic University) website. Its purpose
+                is to mirror the content and functionality of the original site,
+                ensuring that users have access to the same information and
+                resources available on the LSPU's primary online platform.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="../images/car.png" />
+            <div class="layer">
+              <h3>Python Game</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Veritatis ipsam expedita, recusandae voluptatum quidem ea! Alias
+                necessitatibus repellat, molestias doloremque id dolores error
+                sint blanditiis. Alias praesentium quidem quam assumenda!
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-tittle">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> khensabeniano10@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 09392876393</p>
+            <div class="social-icon">
+              <a href="https://www.facebook.com/profile.php?id=100074544657848"
+                ><i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i> </a>
+              <a href=""><i class="fa-brands fa-instagram"></i> </a>
+              <a href=""><i class="fa-brands fa-linkedin"></i> </a>
+            </div>
+            <a href="../images/Monkey.webp" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Thank you so much for using my portfolio
+          <i class="fa-solid fa-heart"></i>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontent = document.getElementsByClassName("tab-content");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontents of tabcontent) {
+          tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function opnmenu() {
+        sidemenu.style.right = "0";
+      }
+      
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
